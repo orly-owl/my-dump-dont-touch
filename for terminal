@@ -1,3 +1,7 @@
 curl -X POST http://localhost:5000/new-row \
     -H "Content-Type: application/json" \
     -d '{"title":"Test Title","confession":"This is a test post"}'
+
+curl -X POST http://localhost:5000/new-row \
+    -H "Content-Type: application/json" \
+    -d '{"title":"Automated and Generation Test","confession":"I am pyppeteer and I posted this"}'
